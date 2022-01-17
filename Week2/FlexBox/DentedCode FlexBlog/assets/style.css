@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+h3{
+    font-weight:  bold;
+    text-transform: uppercase;
+    color:rgb(230, 114, 19);
+}
+input{
+    /* line-height: 30px; */
+    padding: 10px;
+    border:1px green solid;
+}
+.card{
+    width: 300px;
+    min-height:300px;
+    background: white;
+    margin:10px 5px;
+    border-radius:5px;
+    box-shadow: -5px 5px 10px 5px rgba(0,0,0,0.2);
+    padding-bottom:32px
+}
+.container{
+    /**Global Container Class**/
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+.wrapper{
+    background: #f1faee;
+    min-height: 100vh;
+
+}
+.social>i{
+    margin-right: 10px;
+}
+.nav-bar{
+    background:cornsilk;
+}
+.global-content{
+    display:flex;
+    justify-content: space-between;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.2rem;
+}
+.menu ul{
+    display:flex;
+    list-style-type : none;
+}
+.menu ul li{
+    margin-right:20px;
+    cursor:pointer;
+}
+.menu ul li:hover{
+    color:rgb(59, 59, 228);
+}
+.logo{
+    font-family: 'Lobster', cursive;
+}
+.hero{
+    background: url("Nepal.jpeg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.hero-content{
+    background: black;
+    padding:10px 30px;
+    border-radius:10px;
+    opacity: 0.6;
+    text-align:center;
+}
+.latest{
+    display:flex;
+    margin-top:32px;
+}
+.latest section{
+    width: 60%;
+    background:rgb(248, 248, 248);
+}
+.latest aside{
+    width: 33%;
+    background:rgb(173, 229, 229);
+}
+
+.post-content img{
+    width:150px;
+    border:1px rgba(180, 179, 179, 0.938) solid;
+    border-radius:5px;
+    box-shadow: -10px 10px 15px 5px rgb(214, 178, 178);
+}
+.post-content{
+    display: flex;
+    margin-top: 10px;
+}
+.post-content .info{
+    margin:10px
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+article{
+    margin-top: 10px;
+}
+.readMore,.btnCard{
+    background:orangered;
+    color:white;
+    font-size:16px;
+    padding:8px 15px;
+    border:none;
+    border-radius:5px;
+}
+.readMore:hover{
+    cursor: pointer;
+}
+aside{
+    padding:20px;
+    border-radius:5px;
+}
+aside ul{
+    font-weight:bold;
+}
+
+.byDate{
+    margin-bottom: 80px;
+}
+.byDate li{
+    list-style: none;
+}
+.byCountry li{
+    list-style: none;
+}
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:50px 0;
+
+}
+footer{
+    background:black;
+    height:100px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:10px;
+    margin-top: 32px;
+}
+.recc{
+    background-color:rgba(251,126,80,0.123);
+    padding:48px 0;
+    margin-top: 32px;
+}
+.rec-card{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btnCard{
+    margin-top:5px;
+}
+[type="submit"]{
+    background: orangered;
+    color:white;
+    height:35px;
+    width:20%;
+}
