@@ -1,0 +1,35 @@
+body{
+    font-size:30px;
+    box-sizing:border-box;
+}
+.parent{
+    background: #0077b6;
+    height:1000vh;
+    padding:1rem;
+    position:relative;
+}
+.parent>div{
+    height:150px;
+    padding:1rem;
+    /* position: absolute; */
+}
+.child1{
+    background:#e5e5e5;
+    position: relative;
+    
+}
+.child2{
+    background:#8338ec;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+}
+.child3{
+    background:#748cab;
+}
+.sticky{
+    background: #42a5f5;
+    height:100px !important;
+    position:sticky;
+    top:10px;
+}
